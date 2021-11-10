@@ -11,8 +11,19 @@
     display: none;
     z-index: 1000;
 }
+//Animazioni
+@keyframes opacity {
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
 //PopUP
-.base-style{
+//Nota: per poter utilizzare i popup assegnare le seguenti classi ai tag del popup
+//la classe black-screen al tag del blackscreen
+//inoltre vanno utilizzati l'id "popupAlert" e "black_screen"
+.base-style {
     z-index: 1001;
     border-radius: 8px;
     margin-left: auto;
@@ -21,10 +32,12 @@
     box-shadow: 3px 2px 3px #fff;
 }
 .popup-alert {
-   @extend .base-style;
-   border: 1px solid #8f8f8f;
-   width: 350px;
-   height: 200px;
-   background-color: #8f8f8f;
-   font-family: "Caudex-Regular";
+    @extend .base-style;
+    border: 1px solid #8f8f8f;
+    width: 350px;
+    height: 200px;
+    background-color: #8f8f8f;
+    animation-name: opacity;
+    animation-duration: 300ms;
+    font-family: "Caudex-Regular";
 }

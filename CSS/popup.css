@@ -11,6 +11,42 @@
   z-index: 1000;
 }
 
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .base-style, .popup-alert {
   z-index: 1001;
   border-radius: 8px;
@@ -26,6 +62,10 @@
   width: 350px;
   height: 200px;
   background-color: #8f8f8f;
+  -webkit-animation-name: opacity;
+          animation-name: opacity;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
   font-family: "Caudex-Regular";
 }
 /*# sourceMappingURL=popup.css.map */
