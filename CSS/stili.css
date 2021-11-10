@@ -135,19 +135,35 @@
 }
 
 /*______________________________________*/
-.border-sol-1 {
+.border-sol-1, .border-sol-1-g {
   border: 1px solid #000;
 }
 
-.border-sol-2 {
+.border-sol-2, .border-sol-2-g {
   border: 2px solid #000;
 }
 
-.border-sol-3 {
+.border-sol-3, .border-sol-3-g {
   border: 3px solid #000;
 }
 
-.border-sol-4 {
+.border-sol-4, .border-sol-4-g {
   border: 4px solid #000;
+}
+
+.border-sol-1-g {
+  border-color: #8f8f8f !important;
+}
+
+.border-sol-2-g {
+  border-color: #8f8f8f !important;
+}
+
+.border-sol-3-g {
+  border-color: #8f8f8f !important;
+}
+
+.border-sol-4-g {
+  border-color: #8f8f8f !important;
 }
 /*# sourceMappingURL=stili.css.map */
