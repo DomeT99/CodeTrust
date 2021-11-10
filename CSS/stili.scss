@@ -1,0 +1,137 @@
+//Palette Colori
+$gray-normal: #8f8f8f;
+$mid-gray: #a5a5a5;
+$light-gray: #f6f6f6;
+$light-blue: #3b83bd;
+$high-blue: #063971;
+$blue-ocean: #20214f;
+$yellow-high: #edff21;
+$yellow-mid: #f8f32b;
+$ocra-yellow: #f3da0b;
+$orange-high: #ff7514;
+$orange-mid: #ec7c26;
+$orange-light: #ffa420;
+$orange-strong: #f44611;
+$orange-opaque: #efa94a;
+$red-high: #cb2821;
+$flame-red: #f44611;
+$flame-red-high: #f54021;
+//Aggiungo una buona dose di colori(Ovviamente ne aggiungerò diversi in base a quelli che uso di solito)
+//Color
+.g-normal {
+    color: $gray-normal;
+}
+.g-mid {
+    color: $mid-gray;
+}
+.g-light {
+    color: $light-gray;
+}
+.b-light {
+    color: $light-blue;
+}
+.b-high {
+    color: $high-blue;
+}
+.b-ocean {
+    color: $blue-ocean;
+}
+.y-high {
+    color: $yellow-high;
+}
+.y-mid {
+    color: $yellow-mid;
+}
+.y-ocra {
+    color: $ocra-yellow;
+}
+.o-high {
+    color: $orange-high;
+}
+.o-mid {
+    color: $orange-mid;
+}
+.o-light {
+    color: $orange-light;
+}
+.o-strong {
+    color: $orange-strong;
+}
+.o-opaque {
+    color: $orange-opaque;
+}
+.r-high {
+    color: $red-high;
+}
+.r-flame{
+    color: $flame-red;
+}
+.r-flame-high{
+    color: $flame-red-high;
+}
+//Background color
+.bg-g-normal {
+    background-color: $gray-normal;
+}
+.bg-g-mid {
+    background-color: $mid-gray;
+}
+.bg-g-light {
+    background-color: $light-gray;
+}
+.bg-b-light {
+    background-color: $light-blue;
+}
+.bg-b-high {
+    background-color: $high-blue;
+}
+.bg-b-ocean {
+    background-color: $blue-ocean;
+}
+.bg-y-high {
+    background-color: $yellow-high;
+}
+.bg-y-mid {
+    background-color: $yellow-mid;
+}
+.bg-y-ocra {
+    background-color: $ocra-yellow;
+}
+.bg-o-high {
+    background-color: $orange-high;
+}
+.bg-o-mid {
+    background-color: $orange-mid;
+}
+.bg-o-light {
+    background-color: $orange-light;
+}
+.bg-o-strong {
+    background-color: $orange-strong;
+}
+.bg-o-opaque {
+    background-color: $orange-opaque;
+}
+.bg-r-high {
+    background-color: $red-high;
+}
+.bg-r-flame{
+    background-color: $flame-red;
+}
+.bg-r-flame-high{
+   background-color: $flame-red-high;
+}
+/*______________________________________*/
+//Border(Di default il color dei bordi è #000)
+.border-sol-1 {
+    border: 1px solid #000;
+}
+.border-sol-2 {
+    border: 2px solid #000;
+}
+.border-sol-3 {
+    border: 3px solid #000;
+}
+.border-sol-4 {
+    border: 4px solid #000;
+}
