@@ -17,6 +17,111 @@ $red-high: #cb2821;
 $flame-red: #f44611;
 $flame-red-high: #f54021;
 //Aggiungo una buona dose di colori(Ovviamente ne aggiungerò diversi in base a quelli che uso di solito)
+
+//Font
+/*FONT ROBOTO*/
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(/Font/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(/Font/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(/Font/Roboto/Roboto-Regular.ttf);
+}
+.roboto-black {
+    font-family: "Roboto-Black";
+}
+.roboto-light {
+    font-family:"Roboto-Light";
+}
+.roboto-regular{
+    font-family: "Roboto-Regular";
+}
+/*FONT KALAM*/
+@font-face {
+    font-family: "Kalam-Regular";
+    src: url(/Font/Kalam/Kalam-Regular.ttf);
+}
+@font-face {
+    font-family: "Kalam-Light";
+    src: url(/Font/Kalam/Kalam-Light.ttf);
+}
+@font-face {
+    font-family: "Kalam-Bold";
+    src: url(/Font/Kalam/Kalam-Bold.ttf);
+}
+.kalam-bold {
+    font-family: "Kalam-Bold";
+}
+.kalam-light {
+    font-family:"Kalam-Light";
+}
+.kalam-regular{
+    font-family: "Kalam-Regular";
+}
+/*FONT INSTRUCTION*/
+@font-face {
+    font-family: "Instruction-Bold-Italic";
+    src: url(/Font/Instruction/Instruction-Bold-Italic.otf);
+}
+@font-face {
+    font-family: "Instruction-Bold";
+    src: url(/Font/Instruction/Instruction-Bold.otf);
+}
+@font-face {
+    font-family: "Instruction-Italic";
+    src: url(/Font/Instruction/Instruction-Italic.otf);
+}
+@font-face {
+    font-family: "Instruction";
+    src: url(/Font/Instruction/Instruction.otf);
+}
+.instruction-bold-italic {
+    font-family: "Instruction-Bold-Italic";
+}
+.instruction-bold {
+    font-family:"Instruction-Bold";
+}
+.instruction-italic{
+    font-family:"Instruction-Italic";
+}
+.instruction-n{
+    font-family: "Instruction";
+}
+/*FONT CAUDEX*/
+@font-face {
+    font-family: "Caudex-Bold";
+    src: url(/Font/Caudex/Caudex-Bold.ttf);
+}
+@font-face {
+    font-family: "Caudex-Bold-Italic";
+    src: url(/Font/Caudex/Caudex-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Caudex-Italic";
+    src: url(/Font/Caudex/Caudex-Italic.ttf);
+}
+@font-face {
+    font-family: "Caudex-Regular";
+    src: url(/Font/Caudex/Caudex-Regular.ttf);
+}
+.caudex-bold {
+    font-family: "Caudex-Bold";
+}
+.caudex-bold-italic {
+    font-family:"Caudex-Bold-Italic";
+}
+.caudex-italic{
+    font-family:"Caudex-Italic";
+}
+.caudex-regular{
+    font-family: "Caudex-Regular";
+}
+
 //Color
 .g-normal {
     color: $gray-normal;
