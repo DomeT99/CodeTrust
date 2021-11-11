@@ -47,7 +47,7 @@
   }
 }
 
-.base-style, .popup-alert {
+.base-style, .popup-alert, .popup-info, .popup-success {
   z-index: 1001;
   border-radius: 8px;
   margin-left: auto;
@@ -57,15 +57,30 @@
           box-shadow: 3px 2px 3px #fff;
 }
 
-.popup-alert {
+.close-popup {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.popup-alert, .popup-info, .popup-success {
   border: 1px solid #8f8f8f;
   width: 350px;
   height: 200px;
   background-color: #8f8f8f;
   -webkit-animation-name: opacity;
           animation-name: opacity;
-  -webkit-animation-duration: 300ms;
-          animation-duration: 300ms;
+  -webkit-animation-duration: 200ms;
+          animation-duration: 200ms;
   font-family: "Caudex-Regular";
+}
+
+.popup-info {
+  height: 90px !important;
+}
+
+.popup-success {
+  height: 120px !important;
 }
 /*# sourceMappingURL=popup.css.map */

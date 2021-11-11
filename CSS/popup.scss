@@ -31,6 +31,12 @@
     margin-top: 180px;
     box-shadow: 3px 2px 3px #fff;
 }
+.close-popup{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
 .popup-alert {
     @extend .base-style;
     border: 1px solid #8f8f8f;
@@ -38,6 +44,16 @@
     height: 200px;
     background-color: #8f8f8f;
     animation-name: opacity;
-    animation-duration: 300ms;
+    animation-duration: 200ms;
     font-family: "Caudex-Regular";
+}
+.popup-info{
+
+    @extend .popup-alert;
+    height: 90px !important;
+}
+.popup-success{
+
+    @extend .popup-alert;
+    height: 120px !important;
 }
