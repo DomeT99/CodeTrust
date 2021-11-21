@@ -8,16 +8,25 @@
     left: 0;
     background-color: #000000;
     opacity: 0.7;
-    display: none;
     z-index: 1000;
 }
 //Animazioni
 @keyframes opacity {
-    0%{opacity: 0;}
-    25%{opacity: 0.25;}
-    50%{opacity: 0.5;}
-    75%{opacity: 0.75;}
-    100%{opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 //PopUP
 //Nota: per poter utilizzare i popup assegnare le seguenti classi ai tag del popup
@@ -31,7 +40,7 @@
     margin-top: 180px;
     box-shadow: 3px 2px 3px #fff;
 }
-.close-popup{
+.close-popup {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -47,13 +56,42 @@
     animation-duration: 200ms;
     font-family: "Caudex-Regular";
 }
-.popup-info{
-
+.popup-info {
     @extend .popup-alert;
     height: 90px !important;
 }
-.popup-success{
-
+.popup-success {
     @extend .popup-alert;
     height: 120px !important;
+}
+//Classi di popup richiamati direttamente in Javascript
+.alert-func {
+    border: 1px solid #000;
+    width: 350px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: {
+        left: auto;
+        right: auto;
+        top: 25vh;
+    }
+    font-family: "Roboto-Regular";
+    .alert-head {
+        border-bottom: 1px solid #000;
+        height: 20px;
+        text-align: center;
+        border-radius: 8px 8px;
+        text-transform: uppercase;
+        background-color: rgb(0, 94, 55);
+    }
+    .alert-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .btn-close {
+        margin-top: 10px;
+        margin-left: 150px;
+        width: 40px;
+    }
 }
