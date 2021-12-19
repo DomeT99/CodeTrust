@@ -10,42 +10,6 @@
   z-index: 1000;
 }
 
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.25;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  75% {
-    opacity: 0.75;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.25;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  75% {
-    opacity: 0.75;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .base-style, .popup-alert, .popup-info, .popup-success {
   z-index: 1001;
   border-radius: 8px;
@@ -68,10 +32,10 @@
   width: 350px;
   height: 200px;
   background-color: #8f8f8f;
-  -webkit-animation-name: opacity;
-          animation-name: opacity;
-  -webkit-animation-duration: 200ms;
-          animation-duration: 200ms;
+  -webkit-animation-name: scaleAppear;
+          animation-name: scaleAppear;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
   font-family: "Caudex-Regular";
 }
 
@@ -113,5 +77,63 @@
   margin-top: 10px;
   margin-left: 150px;
   width: 40px;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes scaleAppear {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scaleAppear {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=popup.css.map */
