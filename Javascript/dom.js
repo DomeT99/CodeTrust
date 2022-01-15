@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
   console.log("DOM loaded");
-  function cloack() {
+  function clock() {
     let dateNow = new Date();
     let hour = dateNow.getHours();
     let minutes = dateNow.getMinutes();
@@ -8,5 +8,5 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("cloak").innerHTML =
       hour + ":" + minutes + ":" + seconds;
   }
-  setInterval(cloack, 1000);
+  setInterval(clock, 1000);
 });
