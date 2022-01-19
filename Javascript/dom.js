@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
   console.log("DOM loaded");
+ //Funzione orologio
   function clock() {
     let dateNow = new Date();
     let hour = dateNow.getHours();
