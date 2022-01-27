@@ -1,2 +1,2 @@
 # CodeTrust
-Creazione di un framework personale per lo sviluppo web
+Personal library with tools and components for web development 🧠.
